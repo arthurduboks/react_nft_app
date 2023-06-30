@@ -1,0 +1,40 @@
+:root {
+  --color-dark-1: #000000;
+  --color-dark-2: #111111;
+  --color-dark-3: #777777;
+  --color-light-3: #cccccc;
+  --color-pink: #ff3998;
+  --color-white: #ffffff;
+  --color-orange: #ff8139;
+  --color-green: #39ffa0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, "Courier New", Courier, monospace;
+  background-color: var(--color-dark-2);
+  color: var(--color-light-3);
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 500;
+}

@@ -1,0 +1,14 @@
+.sponsor-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sponsor-item_logo {
+  max-width: 40px;
+  max-width: 40px;
+}
+
+.sponsor-item_text {
+  font-size: 20px;
+}
