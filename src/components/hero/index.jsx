@@ -38,12 +38,7 @@ function Hero(props) {
       </div>
       <div className="hero_right">
         <div className="hero_right-image-wrap">
-          <img
-            className="hero_right_image"
-            src={heroImage}
-            alt="hero image"
-            loading="lazy"
-          />
+          <img className="hero_right_image" src={heroImage} alt="hero image" />
           <div className="hero_right-image-shadow"></div>
         </div>
       </div>
