@@ -9,6 +9,9 @@ A sleek, modern landing page design crafted with React and Vite. This project em
 - **Hero Section**: Eye-catching hero sections to keep users engaged.
 - **Sponsor Item List**: A list of sponsors with a dynamic layout.
 - **Reusable Components**: Modular code with reusable components for efficiency.
+- **Smooth Animations**: Utilizing [Framer Motion](https://www.framer.com/api/motion/) for fluid animations and transitions.
+
+## 🛠️ Built with
 
 ## 🛠️ Built with
 
