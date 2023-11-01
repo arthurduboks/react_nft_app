@@ -13,7 +13,5 @@ A sleek, modern landing page design crafted with React and Vite. This project em
 
 ## 🛠️ Built with
 
-## 🛠️ Built with
-
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
