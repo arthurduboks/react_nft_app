@@ -6,7 +6,12 @@ function NftCard(props) {
 
   return (
     <div className="nft-card">
-      <img className="nft-card_image" src={image} alt={`nft-card-${name}`} />
+      <img
+        className="nft-card_image"
+        src={image}
+        alt={`nft-card-${name}`}
+        loading="lazy"
+      />
       <div className="nft-card_details">
         <span className="nft-card_details-series">Cyber canvas</span>
         <span className="nft-card_details-top-bid">Top bid</span>
@@ -16,6 +21,7 @@ function NftCard(props) {
             className="nft-card_details-eth-logo"
             src={EthLogo}
             alt="ethereum logo"
+            loading="lazy"
           />
           {price}
         </span>

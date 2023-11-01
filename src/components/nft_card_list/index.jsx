@@ -15,7 +15,7 @@ export const nfts = [
   },
   {
     image: Nft1035,
-    name: "Cyber Seraph",
+    name: "Lana Clone",
     price: 1.55,
     daysLeft: 12,
     number: 1035,
@@ -29,7 +29,7 @@ export const nfts = [
   },
   {
     image: Nft1031,
-    name: "Cyber Seraph",
+    name: "Jupiter",
     price: 1.15,
     daysLeft: 12,
     number: 1031,
