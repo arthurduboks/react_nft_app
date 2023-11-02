@@ -8,28 +8,28 @@ import Nft1031 from "@/assets/nft-1031.png";
 export const nfts = [
   {
     image: Nft1038,
-    name: "Cyber Seraph",
+    name: "BoundLore",
     price: 1.25,
     daysLeft: 12,
     number: 1038,
   },
   {
     image: Nft1035,
-    name: "Lana Clone",
+    name: "Sanctus",
     price: 1.55,
     daysLeft: 12,
     number: 1035,
   },
   {
     image: Nft1034,
-    name: "Tech Titaness",
+    name: "LimenArt",
     price: 1.75,
     daysLeft: 12,
     number: 1034,
   },
   {
     image: Nft1031,
-    name: "Jupiter",
+    name: "PomeRealm",
     price: 1.15,
     daysLeft: 12,
     number: 1031,
@@ -42,6 +42,7 @@ function NftCardList() {
       {nfts.map((nft) => {
         return (
           <NftCard
+            key={nft.number}
             image={nft.image}
             name={nft.name}
             price={nft.price}

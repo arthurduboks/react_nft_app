@@ -13,7 +13,7 @@ function NftCard(props) {
         loading="lazy"
       />
       <div className="nft-card_details">
-        <span className="nft-card_details-series">Cyber canvas</span>
+        <span className="nft-card_details-series">POMSKY</span>
         <span className="nft-card_details-top-bid">Top bid</span>
         <span className="nft-card_details-name">{name}</span>
         <span className="nft-card_details-price">
