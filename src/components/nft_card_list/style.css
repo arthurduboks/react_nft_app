@@ -6,8 +6,17 @@
   margin-bottom: 10px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .nft-card-list {
     flex-direction: row;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on tablet sizes */
+    justify-content: center; /* Center the items on tablet sizes */
+  }
+}
+
+@media (min-width: 992px) {
+  .nft-card-list {
+    flex-direction: row;
+    flex-wrap: nowrap; /* Prevent wrapping on desktop sizes */
   }
 }
