@@ -19,6 +19,9 @@
   grid-template-columns: 1fr 1fr;
   padding: 24px;
   gap: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .nft-card_details :nth-child(2n) {
